@@ -42,6 +42,7 @@ public abstract class BaseUtils {
      */
     protected ResultSet queryByWhere(String sql,Object[] objs){
 
+        //abc
         getConnection();
         try {
             ps=conn.prepareStatement(sql);
